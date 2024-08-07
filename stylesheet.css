@@ -464,6 +464,7 @@ justify-content: center;
 
     .about  {
         flex-direction: column;
+        align-content: center;
       
     }
 
