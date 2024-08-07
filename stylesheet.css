@@ -462,16 +462,23 @@ justify-content: center;
         flex-direction: column;
     }
 
-    .about  {
+    .image-about {
+        flex-direction: column;
+        justify-content: center;
+        padding-inline-start: 15px;
+        
+    }
+    
+    .about {
         flex-direction: column;
         align-content: center;
-      
     }
 
-    .product-display, .mySlides  {
+    .product-display, .mySlides {
         flex-direction: column;
-
     }
+
+    
 }
 
 @media (max-width: 480px) {
