@@ -457,28 +457,19 @@ justify-content: center;
 /* hero section styling pg2 ends here*/
 
 /* media queries for responsiveness */
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     .flexbox-container {
         flex-direction: column;
     }
 
-    .image-about {
-        flex-direction: column;
-        justify-content: center;
-        padding-inline-start: 15px;
-        
-    }
-    
     .about {
         flex-direction: column;
-        align-content: center;
+        align-items: center;
     }
 
     .product-display, .mySlides {
         flex-direction: column;
     }
-
-    
 }
 
 @media (max-width: 480px) {
