@@ -457,7 +457,7 @@ justify-content: center;
 /* hero section styling pg2 ends here*/
 
 /* media queries for responsiveness */
-@media (max-width: 600px) {
+@media (max-width: 750px) {
     .flexbox-container {
         flex-direction: column;
     }
